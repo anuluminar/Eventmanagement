@@ -1,0 +1,1 @@
+export const base_URL='https://event-management-backend-tn16.onrender.com'

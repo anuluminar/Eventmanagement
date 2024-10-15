@@ -1,0 +1,155 @@
+/* --------------------------home.css---------------------- */
+
+.layer {
+    background-color: rgba(231, 231, 223, 0.16);
+    /* position: absolute; */
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 350px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.para {
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.video {
+    background-image: url('https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* position: relative; */
+    text-align: center;
+}
+
+/* -----------------------------view events-------------------------- */
+
+.event {
+    position: relative;
+    width: 50%;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.735);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .event:hover .overlay {
+    width: 360px;
+  }
+  
+  .text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .event-bg{
+    /* background-image: url('https://worldofprintables.com/wp-content/uploads/2023/06/textured-gray-wallpaper.jpg'); */
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+.beat-burst{
+  font-weight: bold;
+  font-family: 'Sofia', cursive;
+  font-size: 39px;
+}
+
+/* -------------------admin home------------------------------------- */
+
+.admin-bg{
+    background-image: url('https://ddex.co.uk/wp-content/uploads/2018/10/Live-Music-Events-Stand-Design.jpg');
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+/* ---------------------dashboard--------------------------- */
+
+.dashboard-bgimage{
+    background-image: url('https://images.pexels.com/photos/2078071/pexels-photo-2078071.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    height: 500px;
+    width: 100%;
+}
+
+
+/* ------------------ */
+/* 
+body, html { 
+  height: 100%; 
+  margin: 0; 
+  font-family: Arial, Helvetica, sans-serif; 
+}  */
+
+.bg-img{
+  background-image: url('https://images.pexels.com/photos/1105666/pexels-photo-1105666.jpeg?cs=srgb&dl=pexels-vishnu-r-nair-1105666.jpg&fm=jpg');
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  /*position: absolute;*/
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+.bg-text{
+   width: 70%;
+   position: absolute;
+   left: 50%;
+   top: 30%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+   padding: 10px;
+}
+
+/* -----------------------bookings--------------------------- */
+
+.book-bg{
+  background-image: url('https://wallpapercave.com/wp/aHBwrlG.jpg');
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+
+/* -------------profile--------------------- */
+
+.update{
+  background-image: linear-gradient(rgb(76, 153, 192), rgb(49, 49, 88));
+  color: azure;
+}
